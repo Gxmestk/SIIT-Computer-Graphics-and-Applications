@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1682704456 source:d:\2birds1stone\siit-computer-graphics-and-applications\template 2023\template_2_translations\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<math.h>
+	<cstdlib>
+	<math.h>
+	<time.h>
+

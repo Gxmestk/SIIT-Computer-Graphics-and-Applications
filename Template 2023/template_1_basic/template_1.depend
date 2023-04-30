@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1681121909 source:d:\cgraphics_2023\template_2023\template_2023_1\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+
+1681121909 source:d:\cgraphics_2023\templates_2023\template_1_basic\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+
+1682172537 source:c:\users\user441\downloads\a_fin_help_package\a_fin_help_package\templates_2023\template_1_basic\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+
+1682707606 source:d:\2birds1stone\siit-computer-graphics-and-applications\template 2023\template_1_basic\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+

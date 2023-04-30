@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1618458895 source:d:\cgraphics_201x_2020\l12_2021\example_m3_sub_sub\main.cpp
+	<windows.h>
+	<GL/glut.h>
+
+1682646892 source:d:\2birds1stone\siit-computer-graphics-and-applications\template 2023\template5_sub_sub\main.cpp
+	<windows.h>
+	<GL/glut.h>
+

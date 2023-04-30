@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1555553092 source:d:\cgraphics_201x\l10_2020\template\template\main.cpp
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+
+1681120849 source:d:\cgraphics_2023\template_2023\template_2023\main.cpp
+	<windows.h>
+	<GL/glut.h>
+	<stdlib.h>
+	<time.h>
+	<stdio.h>
+	<string.h>
+
