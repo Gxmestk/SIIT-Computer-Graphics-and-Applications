@@ -218,3 +218,7 @@
 	<stddef.h>
 	<GL/gl.h>
 
+1682693006 source:d:\2birds1stone\siit-computer-graphics-and-applications\lecture\opengl\lecture 13\lit rectangle with normals and a rotating light\main.cpp
+	<windows.h>
+	<GL/glut.h>
+

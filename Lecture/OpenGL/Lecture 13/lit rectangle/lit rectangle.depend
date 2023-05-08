@@ -230,3 +230,9 @@
 	<_mingw.h>
 	<stddef.h>
 
+1682692664 source:d:\2birds1stone\siit-computer-graphics-and-applications\lecture\opengl\lecture 13\lit rectangle\main.cpp
+	<windows.h>
+	<windows.h>
+	<GL/glut.h>
+	<stdio.h>
+

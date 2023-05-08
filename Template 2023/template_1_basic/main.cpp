@@ -18,6 +18,7 @@ GLfloat angle=0, dangle=0.0;
 GLfloat zoom=60., dz=10.;
 GLfloat ColorR=1, ColorG=0,ColorB=0;
 bool flag;
+
 void Time_Delay(int dur)
 {
     clock_t start_time;
@@ -26,6 +27,7 @@ void Time_Delay(int dur)
     {
     }
 }
+
 void output_Text(float x, float y, float z, char *text) //output a text at x,y,z
 {
     int len, i;
@@ -37,6 +39,7 @@ void output_Text(float x, float y, float z, char *text) //output a text at x,y,z
         glutBitmapCharacter(GLUT_BITMAP_8_BY_13, text[i]);
     }
 }
+
 void output_Number(float x, float y, float z, double v) //output a number at x,y
 {
     int len, i;
@@ -44,6 +47,7 @@ void output_Number(float x, float y, float z, double v) //output a number at x,y
     sprintf(text, "%lf", v); //converts v to the string "text"
     output_Text(x,y,z,text);
 }
+
 void myInit2d(void)
 {
     glClearColor(1.0,1.0,1.0,0.0);     // set white background color
@@ -56,6 +60,7 @@ void myInit2d(void)
     glMatrixMode(GL_MODELVIEW);       //set some additional parameters
     glLoadIdentity();
 }
+
 void myInit3d(void)
 {
     glClearColor(1,1,1,0);
@@ -69,6 +74,7 @@ void myInit3d(void)
     glLoadIdentity();
     gluLookAt(40.0, 40.0, 40.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 }
+
 void draw_Origin()
 {
     glColor3f(0,0,0);
@@ -77,10 +83,12 @@ void draw_Origin()
     glVertex3f(0,0,0);
     glEnd();
 }
+
 void myDisplay(void)
 {
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
     glColor3f(ColorR,ColorG,ColorB);
+
     glPushMatrix();
     glTranslated(20,20,0);
     glRotated(angle,0,0,1);
@@ -117,6 +125,7 @@ void myKeyboard(unsigned char key, int x, int y)
 void myMotion(int x, int y)
 {
 }
+
 void SpecialKeys(int key, int x, int y)
 {
     if ((key == GLUT_KEY_F1)&&(!flag))
@@ -124,6 +133,7 @@ void SpecialKeys(int key, int x, int y)
         ColorR=1-ColorR;
     }
 }
+
 void Menu_Color(int option)
 {
     switch (option)

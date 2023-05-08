@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1682701263 source:d:\2birds1stone\siit-computer-graphics-and-applications\template 2023\template_3_interpolation\main.cpp
+1683470780 source:d:\2birds1stone\siit-computer-graphics-and-applications\template 2023\template_3_interpolation\main.cpp
 	<windows.h>
 	<GL/glut.h>
 	<math.h>

@@ -6,7 +6,7 @@
 int w=500, h=500;
 GLfloat diffuseMaterial[4] = { 0.5, 0.5, 1.0, 0.0 };
 GLfloat DiffuseLight[4]= {1,1,1.0,0};
-GLfloat light_position[] = {5.0, 0.0, 0.0, 1.0 };
+GLfloat light_position[] = {0.0, 5.0, 0.0, 1.0 };
 float angle=0;
 GLfloat ax[3]= {5,0,0};
 GLfloat ay[3]= {0,5,0};
@@ -45,9 +45,10 @@ void displayRectangle()
     glColor4fv(diffuseMaterial);
 
     glBegin(GL_QUADS);//normals and points
+
     glVertex3f(1, 1, -1);
     glVertex3f(1, 1, 1);
-    glNormal3f(1, 0, 0);//
+    glNormal3f(0, 1, 0);//
     glVertex3f(-1, 1, 1);
     glVertex3f(-1, 1, -1);
     glEnd();
